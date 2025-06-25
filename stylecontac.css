@@ -1,0 +1,144 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff0f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #ffe0e9;
+  padding: 20px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.brand {
+  text-align: center;
+  font-size: 2.5em;
+  color: #d63384;
+  letter-spacing: 1px;
+}
+
+.brand span {
+  color: #e72b70;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #d63384;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff1493;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  min-height: 100vh;
+  background-image: url('makeupp.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.contact-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 240, 245, 0.85);
+  z-index: 1;
+}
+
+
+.contact-box {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 40px 30px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.contact-box h2 {
+  color: #d63384;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.contact-box p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+
+a.whatsapp-btn,
+a.instagram-btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.whatsapp-btn {
+  background-color: #25d366;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5b;
+}
+
+.instagram-btn {
+  background-color: #e1306c;
+}
+
+.instagram-btn:hover {
+  background-color: #c72c60;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #ffe0e9;
+  padding: 15px 0;
+  font-size: 0.9em;
+  color: #ea4c8e;
+}

@@ -1,0 +1,66 @@
+ body {
+    background-color: #fff0f5;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+header {
+  background-color: #e6597a;
+  color: white;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: lowercase;
+}
+
+
+
+.card {
+    margin: auto;
+    max-width: 320px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.btn-pesan {
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+}
+
+.btn-pesan:hover {
+    background-color: #151314;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #efebe9;
+            color: #e24c8d;
+            margin-top: 30px;
+        }
